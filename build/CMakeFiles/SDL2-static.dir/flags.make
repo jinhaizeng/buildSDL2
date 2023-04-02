@@ -7,13 +7,13 @@ C_DEFINES = -DGL_GLEXT_PROTOTYPES -DSDL_STATIC_LIB -DUSING_GENERATED_CONFIG_H
 
 C_INCLUDES = -I/Volumes/RyanSSD/Code/Android/buildSDL2/build/include -I/Volumes/RyanSSD/Code/Android/buildSDL2/build/include-config-c++_shared -I/Users/ryan/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures
 
-C_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter "/Volumes/RyanSSD/Code/Android/buildSDL2/SDL2/src/video/khronos"  -Wall -fno-strict-aliasing -Wdeclaration-after-statement -fvisibility=hidden -Wshadow  -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=26 -DSDL_BUILD_MICRO_VERSION=3 -fPIC
+C_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/Volumes/RyanSSD/Code/Android/buildSDL2/SDL2/src/video/khronos"  -Wall -fno-strict-aliasing -Wdeclaration-after-statement -fvisibility=hidden -Wshadow  -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=26 -DSDL_BUILD_MICRO_VERSION=3 -fPIC
 
 CXX_DEFINES = -DGL_GLEXT_PROTOTYPES -DSDL_STATIC_LIB -DUSING_GENERATED_CONFIG_H
 
 CXX_INCLUDES = -I/Volumes/RyanSSD/Code/Android/buildSDL2/build/include -I/Volumes/RyanSSD/Code/Android/buildSDL2/build/include-config-c++_shared -I/Users/ryan/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures
 
-CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIC
+CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC
 
 # Custom flags: CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o_FLAGS =  -marm
 

@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.18.1)
+
+set(SDL2_INCLUDE_DIR ../SDL2/include)
+set(SDL2_LIBRARY ../SDL2/lib/${ANDROID_ABI}/libSDL2.so)
+
+add_library(SDL2 SHARED IMPORTED)
+set_target_properties(SDL2 PROPERTIES IMPORTED_LOCATION ${SDL2_LIBRARY})
+
+add_library(your_library SHARED)
+target_include_directories(your_library PRIVATE ${SDL2_INCLUDE_DIR})
+target_link_libraries(your_library SDL2)

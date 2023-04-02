@@ -1,0 +1,12 @@
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/install/strip.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/install/local.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/list_install_components.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/edit_cache.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/install.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/uninstall.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/SDL2main.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/SDL2_test.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/SDL2.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/rebuild_cache.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/sdl_headers_copy.dir
+/Volumes/RyanSSD/Code/Android/buildSDL2/build/CMakeFiles/SDL2-static.dir

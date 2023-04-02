@@ -19,7 +19,7 @@ target_link_libraries(your_library SDL2)
 3. cd build，然后执行
 ```
 cmake .. -DCMAKE_TOOLCHAIN_FILE=/Users/ryan/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake \
-    -DANDROID_ABI='armeabi-v7a;arm64-v8a'\
+    -DANDROID_ABI="arm64-v8a"\
     -DANDROID_NATIVE_API_LEVEL=<api-level> \
     -DCMAKE_BUILD_TYPE=c++_shared
 ```

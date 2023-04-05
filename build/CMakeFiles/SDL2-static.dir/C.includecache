@@ -6,28 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/ryan/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c
-cpu-features.h
-/Users/ryan/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.h
-dlfcn.h
--
-errno.h
--
-fcntl.h
--
-pthread.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-sys/system_properties.h
--
-unistd.h
--
-
 /Users/ryan/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.h
 sys/cdefs.h
 -
